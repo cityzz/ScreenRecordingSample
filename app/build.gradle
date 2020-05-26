@@ -27,7 +27,7 @@ android {
 
 dependencies {
     compile fileTree(dir: new File(buildDir, 'libs'), include: '*.jar')
-    compile "com.android.support:support-v4:${supportLibVersion}"
+    compile 'androidx.legacy:legacy-support-v4:1.0.0'
     compile("com.serenegiant:common:${commonLibVersion}") {
         exclude module: 'support-v4'
     }
