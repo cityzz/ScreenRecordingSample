@@ -1,8 +1,9 @@
-package com.serenegiant.service;
+package com.cityzz.service;
 /*
  * ScreenRecordingSample
- * Sample project to cature and save audio from internal and video from screen as MPEG4 file.
+ * Sample project to capture and save audio from internal and video from screen as MPEG4 file.
  *
+ * Copyright (c) 2020 cityzz
  * Copyright (c) 2015 saki t_saki@serenegiant.com
  *
  * File name: ScreenRecorderService.java
@@ -40,12 +41,12 @@ import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
-import com.serenegiant.media.MediaAudioEncoder;
-import com.serenegiant.media.MediaEncoder;
-import com.serenegiant.media.MediaMuxerWrapper;
-import com.serenegiant.media.MediaScreenEncoder;
-import com.serenegiant.screenrecordingsample.MainActivity;
-import com.serenegiant.screenrecordingsample.R;
+import com.cityzz.media.MediaAudioEncoder;
+import com.cityzz.media.MediaEncoder;
+import com.cityzz.media.MediaScreenEncoder;
+import com.cityzz.screenrecordingsample.MainActivity;
+import com.cityzz.media.MediaMuxerWrapper;
+import com.cityzz.screenrecordingsample.R;
 import com.serenegiant.utils.BuildCheck;
 import com.serenegiant.utils.FileUtils;
 
@@ -57,7 +58,7 @@ public class ScreenRecorderService extends Service {
     	FileUtils.DIR_NAME = APP_DIR_NAME;
     }
 
-	private static final String BASE = "com.serenegiant.service.ScreenRecorderService.";
+	private static final String BASE = "com.cityzz.service.ScreenRecorderService.";
 	public static final String ACTION_START = BASE + "ACTION_START";
 	public static final String ACTION_STOP = BASE + "ACTION_STOP";
 	public static final String ACTION_PAUSE = BASE + "ACTION_PAUSE";

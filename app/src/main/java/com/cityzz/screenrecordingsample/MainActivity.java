@@ -1,8 +1,9 @@
-package com.serenegiant.screenrecordingsample;
+package com.cityzz.screenrecordingsample;
 /*
  * ScreenRecordingSample
- * Sample project to cature and save audio from internal and video from screen as MPEG4 file.
+ * Sample project to capture and save audio from internal and video from screen as MPEG4 file.
  *
+ * Copyright (c) 2020 cityzz
  * Copyright (c) 2015 saki t_saki@serenegiant.com
  *
  * File name: MainActivity.java
@@ -42,7 +43,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.serenegiant.dialog.MessageDialogFragment;
-import com.serenegiant.service.ScreenRecorderService;
+import com.cityzz.service.ScreenRecorderService;
 import com.serenegiant.utils.BuildCheck;
 import com.serenegiant.utils.PermissionCheck;
 

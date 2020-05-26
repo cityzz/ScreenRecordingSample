@@ -1,8 +1,9 @@
-package com.serenegiant.media;
+package com.cityzz.media;
 /*
  * ScreenRecordingSample
- * Sample project to cature and save audio from internal and video from screen as MPEG4 file.
+ * Sample project to capture and save audio from internal and video from screen as MPEG4 file.
  *
+ * Copyright (c) 2020 cityzz
  * Copyright (c) 2014-2016 saki t_saki@serenegiant.com
  *
  * File name: MediaMuxerWrapper.java

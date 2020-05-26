@@ -4,6 +4,7 @@
  * ScreenRecordingSample
  * Sample project to cature and save audio from internal and video from screen as MPEG4 file.
  *
+ * Copyright (c) 2020 cityzz
  * Copyright (c) 2015-2016 saki t_saki@serenegiant.com
  *
  * File name: AndroidManifest.xml
@@ -24,7 +25,7 @@
 */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.serenegiant.screenrecordingsample" >
+    package="com.cityzz.screenrecordingsample" >
 
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -37,7 +38,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.serenegiant.screenrecordingsample.MainActivity"
+            android:name="com.cityzz.screenrecordingsample.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,7 +47,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name="com.serenegiant.service.ScreenRecorderService"
+            android:name="com.cityzz.service.ScreenRecorderService"
             android:enabled="true"
             android:exported="false" >
         </service>
