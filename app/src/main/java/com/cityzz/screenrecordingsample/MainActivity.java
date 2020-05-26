@@ -156,7 +156,7 @@ public final class MainActivity extends AppCompatActivity
         final Intent intent = new Intent(this, ScreenRecorderService.class);
         intent.setAction(ScreenRecorderService.ACTION_START);
         intent.putExtra(ScreenRecorderService.EXTRA_RESULT_CODE, resultCode);
-        intent.putExtras(data);
+//        intent.putExtras(data);
         startService(intent);
     }
 
